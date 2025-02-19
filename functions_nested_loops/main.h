@@ -1,7 +1,10 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-int _putchar(char c);
-void times_table(void);
-
-#endif /* MAIN_H */
+**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    times_table();
+    return (0);
+}
