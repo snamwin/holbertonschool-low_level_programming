@@ -1,21 +1,22 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
 int main(void)
 {
-    char text[] = "_putchar";
-    int i;
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 
-    for (i = 0; text[i] != '\0'; i++)
-    {
-        _putchar(text[i]);
-    }
-    _putchar('\n');
-
-    return (0);
+	return (0);
 }
-
